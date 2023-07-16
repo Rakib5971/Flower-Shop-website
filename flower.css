@@ -59,6 +59,8 @@ font-size:25px ;
     background-color:rgb(241, 10, 49);
     font-size: 15px;
     color:white;
+    border-radius: 5px ;
+    cursor:pointer ;
 }
 .featured{
 margin:20px;
@@ -66,10 +68,14 @@ padding:20px;
 text-align: center;
 
 }
+
+
+
 .featured-description{
     padding:50px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+    color:rgb(65, 64, 64)
 }
 .featured-image{
 display:flex;
@@ -87,11 +93,13 @@ margin-left:20px ;
     background-color:pink;
     display: flex;
     padding-bottom: 20px;
-    border:2px solid rgb(131, 128, 129);
+    justify-content: center;
 }
 .ipsum{
 padding:20px;
 margin: 10px;
+font-family: Arial, Helvetica, sans-serif;
+color:rgb(87, 86, 86)
 }
 
 
@@ -106,10 +114,12 @@ text-align: center ;
 padding:20px;
 margin:20px ;
 
+
 }
 .insta{
 padding: 20px;
 font-family: Arial, Helvetica, sans-serif;
+color:gray;
 
 }
 .instagram-container{
@@ -138,6 +148,7 @@ display: flex;
     font-family: Arial, Helvetica, sans-serif;
 margin-left:20px;
 padding-bottom:20px ;
+
 
 color:rgb(243, 9, 87);
 
